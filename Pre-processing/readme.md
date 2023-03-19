@@ -23,3 +23,5 @@ window함수를 이용하여 불연속점을 채워 비주기 신호를 마치 �
 3. Rectangular    시간 T안에서 현상이 종료되는 과도 데이터, Order Tracking 분석에 사용, 크기가 같은 근접 주파수를 분리하여 측정할 때 사용<br>
 4. Exponential    다소 긴 시간 내에 현상이 종료되는 과도 데이터, Impulse Test 시 사용<br>
 5. Kaiser-Bessel  크기가 다른 근접 주파수를 분리해석할 때 사용<br>
+
+<!-- Mel_spectogram, MFCC  -->

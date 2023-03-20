@@ -25,5 +25,7 @@ window함수를 이용하여 불연속점을 채워 비주기 신호를 마치 �
 5. Kaiser-Bessel  크기가 다른 근접 주파수를 분리해석할 때 사용<br>
 
 > - STFT(short time fourier transforms)
-<img src="" alt="모나리자" />
+<img src="STFT.png" height="300" width="400"><br>
+시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 푸리에 변환하는 방법
+예) 9초 길이의 신호를 가정, 9초 전체에 대한 푸리에 변환x -> 3초 구간 3개로 나누어 각각 푸리에 변환o
 <!-- Mel_spectogram, MFCC  -->

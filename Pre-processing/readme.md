@@ -48,5 +48,20 @@ Overlap = 70%로 설정하였을 때, 시간에 대한 분해능이 높아짐. (
 보통 500 ~ 1000 Hz 구간을 예민하게 인식하고 10000Hz ~ 20000 Hz 구간을 잘 인식하지 못함.<br>
 이러한 특성을 반영하여 FFT를 Transform 한 것<br>
 
+
+> - MFCC<br>
+<img src="MFCC_전체과정.png" height="250"><br>
+MFCC 전체과정 <br>
+1. 오디오 신호를 프레임별(보통 20ms - 40ms)로 나누어 FFT를 적용해 Spectrum 구함.<br>
+2. Spectrum에 Mel Filter Bank를 적용해 Mel Spectrum을 구함.<br>
+3. Mel Spectrum에 Cepstral 분석을 적용해 MFCC를 구함.<br>
+
+소리는 한 가지 주파수로만 구성되어 있지 않으며 기보ㄴ주파수와 함께 기본 주파수의 정수배인 배음들로 구성되어져 있음.<br>
+예) 4옥타브 '라'(440Hz) 음을 연주 -> 440Hz뿐만 아니라 그 정수배인 880Hz, 그리고 그다음 배음들까지 포함<br>
+
+배음 구조를 유추 -> 소리의 고유한 특징<br>
+<img src="Formants.png" height="250"><br>
+위 그림에서 화살표 부분은 Formant라고 하며 신호에서 지배적인 주파수 영역을 가르킴
+
 <!-- Mel_spectogram, MFCC  -->
 

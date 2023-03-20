@@ -34,12 +34,12 @@ window함수를 이용하여 불연속점을 채워 비주기 신호를 마치 �
 * 단점
 STFT는 window length에 따라 분리하기 때문에 길이에 의한 분해능(resolution) 영향을 많이 받음<br>
 length를 줄이면 주파수에 대한 분해능이 줄어들고 length를 늘리면 시간에 대한 분해능이 줄어듦<br>
-<img src="window length 다르게.png" height="250" width="00"><br>
-<img src="overlap적용.png" height="250" width="800"><br>
-
-
-
+<img src="window_length_다르게.png" height="250" width="800"><br>
+(왼쪽   그림) window length가 작을경우 : 시간에 대한 분해능이 높음 / 주파수에 대한 분해능이 낮음<br>
+(오른쪽 그림) window length가 클  경우 : 시간에 대한 분해능이 낮음 / 주파수에 대한 분해능이 높음<br>
 
 > - Overlap
+<img src="overlap적용.png" height="250" width="800"><br>
+Overlap = 70%로 설정하였을 때, 시간에 대한 분해능이 높아짐. (보통 50~75%를 사용한다고 함.)
 
 <!-- Mel_spectogram, MFCC  -->

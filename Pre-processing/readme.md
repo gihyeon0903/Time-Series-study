@@ -24,8 +24,10 @@ window함수를 이용하여 불연속점을 채워 비주기 신호를 마치 �
 4. Exponential    다소 긴 시간 내에 현상이 종료되는 과도 데이터, Impulse Test 시 사용<br>
 5. Kaiser-Bessel  크기가 다른 근접 주파수를 분리해석할 때 사용<br>
 
-> - STFT(short time fourier transforms)
-<img src="STFT.png" height="300" width="400"><br>
-시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 푸리에 변환하는 방법
-예) 9초 길이의 신호를 가정, 9초 전체에 대한 푸리에 변환x -> 3초 구간 3개로 나누어 각각 푸리에 변환o
+> - STFT(short time fourier transforms)<br>
+<img src="STFT예시.png" height="250" width="800"><br>
+시간에 대해 구간을 짧게 나누어 나누어진 여러 구간의 데이터를 각각 푸리에 변환하는 방법<br>
+예) 9초 길이의 신호를 가정, 9초 전체에 대한 푸리에 변환x -> 3초 구간 3개로 나누어 각각 푸리에 변환o<br>
+위 그림과 같이 3가지 성분이 어느 시점(t)에 존재하는 지에 대해 알 수 있음.
+
 <!-- Mel_spectogram, MFCC  -->
